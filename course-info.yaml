@@ -1,0 +1,18 @@
+type: marketplace
+title: Pandas tutorial
+language: English
+summary: |-
+  This is an introductory course about one of the most popular Python library - Pandas.
+  - The course will be most beneficial for learners with some Python skills.
+  - The course covers Pandas data structures, data preparation and cleaning and some advanced topics.
+  - It contains hands-on examples of code implementation and exercises to practice new skills.
+  - The course is based on the official documentation of Pandas.
+vendor:
+  name: JetBrains
+  email: support@jetbrains.com
+  url: https://www.jetbrains.com/
+programming_language: Python
+environment: unittest
+content:
+- Pandas
+- Projects

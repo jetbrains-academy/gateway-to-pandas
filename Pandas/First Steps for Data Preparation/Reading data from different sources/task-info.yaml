@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 81
+    length: 51
+    placeholder_text: "# TODO: read csv to pandas DataFrame df"
+- name: tests/test_task.py
+  visible: false
+- name: somedata.csv
+  visible: true
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

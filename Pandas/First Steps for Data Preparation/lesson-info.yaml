@@ -1,0 +1,7 @@
+content:
+- Understanding a Series
+- Create a Series
+- Understanding a DataFrame
+- Create and manipulate a DataFrame
+- "Basic indexing with .loc[] and .iloc[]"
+- Reading data from different sources

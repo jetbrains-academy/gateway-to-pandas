@@ -1,0 +1,4 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false

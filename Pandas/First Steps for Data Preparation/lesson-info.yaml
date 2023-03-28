@@ -5,3 +5,5 @@ content:
 - Create and manipulate a DataFrame
 - "Basic indexing with .loc[] and .iloc[]"
 - Reading data from different sources
+- Reading data from GitHub
+- Common data issues

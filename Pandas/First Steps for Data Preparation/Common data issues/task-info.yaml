@@ -1,0 +1,22 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 315
+    length: 38
+    placeholder_text: '# Remove duplicates based on the ''ID'' column'
+  - offset: 375
+    length: 102
+    placeholder_text: "# Identify and handle missing values in the 'Age' column, replacing\
+      \ the gaps with the column mean"
+  - offset: 514
+    length: 99
+    placeholder_text: '# Correct inconsistencies in the ''Height'' column by converting
+      all values to float'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

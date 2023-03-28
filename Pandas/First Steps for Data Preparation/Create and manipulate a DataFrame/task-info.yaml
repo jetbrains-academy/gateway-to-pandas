@@ -3,12 +3,12 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 298
-    length: 35
-    placeholder_text: '# your code goes here'
-  - offset: 379
-    length: 66
-    placeholder_text: '# your code goes here'
+  - offset: 293
+    length: 30
+    placeholder_text: '# add ''Month cost'' column here'
+  - offset: 367
+    length: 62
+    placeholder_text: '# add ''Annual cost in thousands'' column here'
 - name: tests/test_task.py
   visible: false
 - name: tests/__init__.py

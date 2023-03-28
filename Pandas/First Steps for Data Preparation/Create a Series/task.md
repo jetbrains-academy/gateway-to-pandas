@@ -2,7 +2,7 @@
 
 There are several ways you can create a Series.
 
-First, you can create a Series from a regular Python list, 1D `numpy.ndarray` or other iterable object using the constructor `pandas.Series()`. 
+* First, you can create a Series from a regular Python list, 1D `numpy.ndarray` or other iterable object using the constructor `pandas.Series()`. 
 The type of the resulting array will be deduced from the type of the elements in the source sequences.
 
 ```python
@@ -20,7 +20,7 @@ int64
 object
 ```
 
-Second, you can use a scalar value:
+* Second, you can use a scalar value:
 ```python
 import pandas as pd
 
@@ -34,7 +34,7 @@ Output:
 dtype: int64
 ```
 
-Third, you can create series from a Python dict.
+* Third, you can create series from a Python dict.
  
 ### Task
 Complete the implementation of the function `create_series(dict_: dict)` so that it creates a Series from a Python dict.

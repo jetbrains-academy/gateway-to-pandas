@@ -9,14 +9,14 @@ def create_dataframe():
 
     return pd.DataFrame(data)
 
-def add_month_salary(df, month_salaries):
-    df['Month salary'] = month_salaries
+def add_month_cost(df, month_costs):
+    df['Month cost'] = month_costs
 
-def add_annual_salary_in_thousands(df):
-    df['Annual salary in thousands'] = 12 * df['Month salary'] // 1000
+def add_annual_cost_in_thousands(df):
+    df['Annual cost in thousands'] = 12 * df['Month cost'] // 1000
 
 if __name__ == "__main__":
     df = create_dataframe()
-    add_month_salary(df, [50000, 500000, 700000, 1000000])
-    add_annual_salary_in_thousands(df)
+    add_month_cost(df, [50000, 800000, 200000, 500000])
+    add_annual_cost_in_thousands(df)
     print(df)

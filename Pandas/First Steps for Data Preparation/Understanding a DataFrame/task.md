@@ -1,6 +1,6 @@
 ## Understanding a DataFrame
 
-DataFrame is two-dimensional labeled tabular structure. It is potentially heterogenous and size-mutable.
+[pandas.DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) is two-dimensional labeled tabular structure. It is potentially heterogenous and size-mutable.
 You can think of it like a spreadsheet or SQL table, or a dict of Series objects. 
 It is generally the most commonly used pandas object. 
 
@@ -14,7 +14,6 @@ Like Series, DataFrame accepts many different kinds of input:
 Along with the data, you can optionally pass `index` (row labels) and `columns` (column labels) arguments. 
 If you pass an index and/or columns, you are guaranteeing the index and/or columns of the resulting DataFrame. 
 Thus, a dict of Series plus a specific index will discard all data not matching up to the passed index.
-
 If axis labels are not passed, they will be constructed from the input data based on common sense rules.
 
 Below are some examples of creating dataframes.
@@ -59,4 +58,4 @@ Output:
 
 ### Alternate constructors
 
-If necessary, you can use other similar constructors to create dataframes, as [DataFrame.from_dict](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_dict.html#pandas.DataFrame.from_dict) or [DataFrame.from_records](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html#pandas.DataFrame.from_records). They and other options are detailed in the [documentation](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html).
+If necessary, you can use other similar constructors to create dataframes, as [DataFrame.from_dict](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_dict.html#pandas.DataFrame.from_dict) or [DataFrame.from_records](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html#pandas.DataFrame.from_records). They and other options are detailed in the [pandas documentation](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html).

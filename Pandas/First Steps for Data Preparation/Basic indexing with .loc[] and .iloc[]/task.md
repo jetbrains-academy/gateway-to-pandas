@@ -32,7 +32,7 @@ subset = df.loc[['row1', 'row3'], ['A', 'C']]  # Select multiple rows and column
 
 subset_with_slices = df.loc['row1':'row2', 'A':'B']  # Select multiple rows and columns by labels
 ```
-Note that contrary to usual Python slices, both the start and the stop are included, when present in the index!
+**Note** that contrary to usual Python slices, both the start and the stop are included, when present in the index!
 
 ### .iloc[]
 
@@ -62,6 +62,6 @@ cell = df.iloc[0, 1]  # Select a single cell by row and column indices
 
 subset = df.iloc[[0, 2], [0, 2]]  # Select multiple rows and columns by indices
 ```
-Remember that with .iloc[], the ending index is exclusive.
+**Remember** that with .iloc[], the ending index is exclusive.
 
-In conclusion, understanding the differences and appropriate use cases for .loc[] and .iloc[] will allow you to work with Pandas DataFrames more effectively and efficiently.
+In conclusion, understanding the differences and appropriate use cases for `.loc[]` and `.iloc[]` will allow you to work with `pandas.DataFrame` more effectively and efficiently.

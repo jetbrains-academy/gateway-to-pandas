@@ -1,0 +1,29 @@
+import requests
+import pandas as pd
+
+from io import StringIO
+
+def download_csv_with_retries(url, max_retries=3):
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, timeout=5)  # Set a reasonable timeout in seconds to avoid hanging indefinitely
+            if response.status_code == 200:
+                return pd.read_csv(StringIO(response.text))
+            else:
+                print(f"Attempt {attempt + 1} failed with status code {response.status_code}. Retrying...")
+        except requests.exceptions.RequestException as e:
+            print(f"Attempt {attempt + 1} failed with error: {e}. Retrying...")
+    raise Exception("Failed to download CSV after multiple attempts")
+
+if __name__ == '__main__':
+    url = 'https://raw.githubusercontent.com/GirZ0n/Lupa-Visualization/main/resources/python_imports/data/all/import_stats/PYTHON_3.csv'
+    df = download_csv_with_retries(url)
+
+    print("First 5 rows of the DataFrame:")
+    print(df.head())
+
+    print("\nShape of the DataFrame:")
+    print(df.shape)
+
+    print("\nSummary statistics of the DataFrame:")
+    print(df.describe())

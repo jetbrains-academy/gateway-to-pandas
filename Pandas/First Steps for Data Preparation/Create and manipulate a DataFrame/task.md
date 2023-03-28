@@ -1,6 +1,6 @@
 ## Create and manipulate a DataFrame
 
-In this task, you will create a DataFrame using different input types and perform basic operations to understand the DataFrame structure better.
+In this task, you create a DataFrame using different input types and perform basic operations to understand the DataFrame structure better.
 
 
 ```python
@@ -69,7 +69,7 @@ Keep in mind that using the `[]`-operator directly on the DataFrame is primarily
 ### Boolean indexing
 
 ```python
-rows_age_gt_30 = df[df['Age'] > 30]  # Select rows where the values in column 'Age' are greater than 30.
+rows_age_gt_30 = df[df['Age'] > 30]  # Select rows where the values in column 'Age' are greater than 30
 
 print(rows_age_gt_30)
 ```
@@ -97,7 +97,7 @@ Output:
 ```
 
 ### Task
-1. Add a new column called 'Month salary' to the DataFrame with the following values: `[50000, 500000, 700000, 1000000]`.
-2. Compute the 'Annual salary in thousands' and add this column to the DataFrame.
+1. Add a new column called `Month cost` to the DataFrame with the following values: `[50000, 800000, 200000, 500000]`.
+2. Compute the `Annual cost in thousands` and add this column to the DataFrame.
 
-<div class="hint">You could operate with columns as they are numbers. Also use int64 type for column 'Annual salary in thousands'.</div>
+<div class="hint">You could operate with columns as they are numbers. Also use int64 type for column `Annual salary in thousands`.</div>

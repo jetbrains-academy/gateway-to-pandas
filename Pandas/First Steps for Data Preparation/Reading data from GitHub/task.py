@@ -3,6 +3,7 @@ import pandas as pd
 
 from io import StringIO
 
+
 def download_csv_with_retries(url, max_retries=3):
     for attempt in range(max_retries):
         try:
@@ -15,8 +16,9 @@ def download_csv_with_retries(url, max_retries=3):
             print(f"Attempt {attempt + 1} failed with error: {e}. Retrying...")
     raise Exception("Failed to download CSV after multiple attempts")
 
+
 if __name__ == '__main__':
-    url = 'https://raw.githubusercontent.com/GirZ0n/Lupa-Visualization/main/resources/python_imports/data/all/import_stats/PYTHON_3.csv'
+    url = 'https://raw.githubusercontent.com/jetbrains-academy/pandas-tutorial/main/import_stats.csv'
     df = download_csv_with_retries(url)
 
     print("First 5 rows of the DataFrame:")

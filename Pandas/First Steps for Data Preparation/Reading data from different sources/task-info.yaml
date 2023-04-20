@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 81
+  - offset: 82
     length: 51
     placeholder_text: "# TODO: read csv to pandas DataFrame df"
 - name: tests/test_task.py

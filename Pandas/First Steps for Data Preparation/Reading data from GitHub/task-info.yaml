@@ -3,13 +3,13 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 893
+  - offset: 860
     length: 35
     placeholder_text: '# Download data from GitHub and load it into a DataFrame'
-  - offset: 978
+  - offset: 945
     length: 16
     placeholder_text: '# Display the first 5 rows of the DataFrame'
-  - offset: 1039
+  - offset: 1006
     length: 15
     placeholder_text: '# Display the shape of the DataFrame'
 - name: tests/test_task.py
@@ -18,3 +18,9 @@ files:
   visible: false
 - name: tests/__init__.py
   visible: false
+- name: tmp.ipynb
+  visible: true
+- name: licenses.csv
+  visible: true
+- name: import_stats.csv
+  visible: true

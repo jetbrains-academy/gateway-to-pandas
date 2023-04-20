@@ -2,17 +2,12 @@ import unittest
 import pandas as pd
 import numpy as np
 
-from task import drop_duplicates_id, fillna, correct_inconsistency
+from task import drop_duplicates_id, fillna, correct_inconsistency, data
+
 
 class TestDataCleaning(unittest.TestCase):
 
     def setUp(self):
-        data = {
-            'ID': [1, 2, 3, 3, 4, 5, 6, 7],
-            'Name': ['Alice', 'Bob', 'Charlie', 'Charlie', 'Eve', 'Frank', None, 'Grace'],
-            'Age': [25, 30, 22, 22, 28, None, 45, 32],
-            'Height': [5.5, 6.1, 5.8, 5.8, None, 5.9, 6.2, '5.7'],
-        }
         self.df = pd.DataFrame(data)
 
         self.df_no_duplicates = drop_duplicates_id(self.df)

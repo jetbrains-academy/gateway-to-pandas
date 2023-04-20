@@ -12,8 +12,8 @@ The axis labels are collectively referred to as the `index`. The basic method to
 s = pd.Series(data, index=index)
 ```
 Here, `data` can be many different things:
-- array-like (list, tuple etc.) or Iterable
 - 1D [`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) object
+- array-like (list, tuple etc.) or Iterable
 - a scalar value (like 7)
 - a Python dict
 

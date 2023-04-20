@@ -5,8 +5,8 @@ You can think of it like a spreadsheet or SQL table, or a dict of Series objects
 It is generally the most commonly used pandas object. 
 
 Like Series, DataFrame accepts many different kinds of input:
-- Dict of 1D ndarrays, lists, dicts, or Series
 - 2D [`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) object
+- Dict of 1D ndarrays, lists, dicts, or Series
 - Structured or record ndarray
 - A Series
 - Another DataFrame

@@ -3,10 +3,10 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 293
+  - offset: 295
     length: 30
     placeholder_text: '# add ''Month cost'' column here'
-  - offset: 367
+  - offset: 370
     length: 62
     placeholder_text: '# add ''Annual cost in thousands'' column here'
 - name: tests/test_task.py

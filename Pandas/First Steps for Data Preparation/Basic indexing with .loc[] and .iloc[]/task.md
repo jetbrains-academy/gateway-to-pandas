@@ -1,4 +1,4 @@
-## Basic indexing with `.loc[]` and `.iloc[]`
+## Basic indexing with .loc[] and .iloc[]
 
 In Pandas, `.loc[]` and `.iloc[]` are powerful indexing functions that allow you to select and manipulate data in a DataFrame based on labels (for .loc[]) or index positions (for .iloc[]).
 

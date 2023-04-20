@@ -6,7 +6,7 @@ from task import download_csv_with_retries
 class TestCase(unittest.TestCase):
     def setUp(self):
         # Set up the environment before testing
-        self.url = 'https://raw.githubusercontent.com/GirZ0n/Lupa-Visualization/main/resources/python_imports/data/all/import_stats/PYTHON_3.csv'
+        self.url = 'https://raw.githubusercontent.com/jetbrains-academy/pandas-tutorial/main/import_stats.csv'
         self.df = download_csv_with_retries(self.url)
         self.expected_columns = ['fq_name', 'count']
 

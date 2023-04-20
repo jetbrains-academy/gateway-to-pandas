@@ -16,34 +16,37 @@ If you want to pass in a path object, pandas accepts any `os.PathLike`. By file-
 Some interesting examples of reading data from different sources:
 
 1. Reading from a compressed file
-```python
-import pandas as pd
 
-filename = 'somedata.csv.gz'  # gzipped CSV file
-df = pd.read_csv(filename, compression='gzip')
-```
+      ```python
+      import pandas as pd
+
+      filename = 'somedata.csv.gz'  # gzipped CSV file
+      df = pd.read_csv(filename, compression='gzip')
+      ```
 2. Reading directly from cloud storages: Amazon S3 example is below, and also Google Cloud Storage (GCS) is possible.
-```python
-import pandas as pd
-# you need to `pip install boto3`
-import boto3
-from io import StringIO
 
-# Set up S3 client
-s3 = boto3.client('s3', aws_access_key_id='YOUR_ACCESS_KEY', aws_secret_access_key='YOUR_SECRET_KEY')
+      ```python
+      import pandas as pd
+      # for using Amazon S3 you need to `pip install boto3`
+      import boto3
+      from io import StringIO
 
-# Define bucket and object key
-bucket_name = 'your-bucket-name'
-file_key = 'path/to/data.csv'
+      # Set up S3 client
+      s3 = boto3.client('s3', aws_access_key_id='YOUR_ACCESS_KEY', aws_secret_access_key='YOUR_SECRET_KEY')
 
-# Read object from S3 and decode
-obj = s3.get_object(Bucket=bucket_name, Key=file_key)
-file_content = obj['Body'].read().decode('utf-8')
+      # Define bucket and object key
+      bucket_name = 'your-bucket-name'
+      file_key = 'path/to/data.csv'
 
-# Load data into DataFrame
-csv_data = StringIO(file_content)
-df = pd.read_csv(csv_data)
-```
+      # Read object from S3 and decode
+      obj = s3.get_object(Bucket=bucket_name, Key=file_key)
+      file_content = obj['Body'].read().decode('utf-8')
+
+      # Load data into DataFrame
+      
+      csv_data = StringIO(file_content)
+      df = pd.read_csv(csv_data)
+      ```
 
 ### Task
-* Implement reading data from CSV file to pandas DataFrame.
+Implement reading data from CSV file to pandas DataFrame.

@@ -83,17 +83,31 @@ Output:
 ### Selection by callable
 Now comes the fun part and the brain-bending part: passing in a function for the indexing. These come in very hand when you are chaining operations and the index has different values. It is very common with grouping operations, which we will see later in the course.
 
-Here is an example showing passing in a function that just returns a slice to get the rows from 1 through 3. Of course we don’t need to use a function here, but we are showing it to introduce the concept before completely melting brains.
+Here is an example showing passing in a function that filters rows where the values in the `Age` column are greater than 30:
 
 ```python
-rows_1_to_2 = df[lambda ignore_df: slice(1,3)]  # same as df[1:3]
-print(rows_1_to_2)
+def age_filter(dataframe):
+    return dataframe['Age'] > 30
+
+rows_age_gt_30 = df[age_filter]  # Select rows where the values in column 'Age' are greater than 30
+print(rows_age_gt_30)
 ```
 Output:
 ```text
-      Name  Age      City
-1      Bob   30  New York
-2  Charlie   35    Prague
+      Name  Age    City
+2  Charlie   35  Prague
+3    David   40  Paphos 
+```
+
+You can also create a function that returns a filter function:
+```python
+def create_filter(column, threshold):
+    def _filter(dataframe):
+        return dataframe[column] > threshold
+    return _filter
+
+age_filter = create_filter('Age', 30)
+rows_age_gt_30 = df[age_filter]  # Select rows where the values in column 'Age' are greater than 30
 ```
 
 ### Task

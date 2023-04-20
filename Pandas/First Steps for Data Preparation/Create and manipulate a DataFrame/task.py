@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def create_dataframe():
     data = {
         'Name': ['Alice', 'Bob', 'Charlie', 'David'],
@@ -9,11 +10,14 @@ def create_dataframe():
 
     return pd.DataFrame(data)
 
+
 def add_month_cost(df, month_costs):
     df['Month cost'] = month_costs
 
+
 def add_annual_cost_in_thousands(df):
     df['Annual cost in thousands'] = 12 * df['Month cost'] // 1000
+
 
 if __name__ == "__main__":
     df = create_dataframe()

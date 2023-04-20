@@ -9,18 +9,22 @@ data = {
 
 df = pd.DataFrame(data)
 
+
 def drop_duplicates_id(df):
     return df.drop_duplicates(subset='ID')
+
 
 def fillna(df):
     df_fillna = df.copy()
     df_fillna['Age'].fillna(df['Age'].mean(), inplace=True)
     return df_fillna
 
+
 def correct_inconsistency(df):
     df_final = df.copy()
     df_final['Height'] = df_fillna['Height'].astype(float)
     return df_final
+
 
 df_no_duplicates = drop_duplicates_id(df)
 print("DataFrame after removing duplicates:")

@@ -4,7 +4,7 @@ In Pandas, `.loc[]` and `.iloc[]` are powerful indexing functions that allow you
 
 ### .loc[]
 
-The `.loc[]` function is label-based data selecting method, which means you have to pass the row and column labels to select data from a DataFrame.
+The `.loc[]` function is a label-based data selecting method, which means you have to pass the row and column labels to select data from a DataFrame.
 
 Basic Syntax:
 ```python

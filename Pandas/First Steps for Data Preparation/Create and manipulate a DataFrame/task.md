@@ -1,6 +1,6 @@
 ## Create and manipulate a DataFrame
 
-In this task, you create a DataFrame using different input types and perform basic operations to understand the DataFrame structure better.
+In this task, you will create a DataFrame using different input types and perform basic operations to better understand the DataFrame structure.
 
 
 ```python
@@ -25,7 +25,7 @@ Output:
 
 ### Working with columns
 
-You should use indexing operator `[]` to to select columns, perform boolean indexing, or slice rows.
+You should use the indexing operator `[]` to select columns, perform boolean indexing, or slice rows.
 
 ```python
 column_age = df['Age']  # Select a single column, the result is Series
@@ -64,7 +64,7 @@ Output:
 2  Charlie   35    Prague
 ```
 
-Keep in mind that using the `[]`-operator directly on the DataFrame is primarily for column selection and basic row slicing. For more advanced row selection or selecting both rows and columns simultaneously, you should use the `.loc[]` and `.iloc[]` functions provided by Pandas.
+Keep in mind that applying the `[]` operator directly on a DataFrame is primarily used for column selection and basic row slicing. For more advanced row selection or selecting both rows and columns simultaneously, you should use the `.loc[]` and `.iloc[]` functions provided by Pandas.
 
 ### Boolean indexing
 
@@ -81,9 +81,9 @@ Output:
 ```
 
 ### Selection by callable
-Now comes the fun part and the brain-bending part: passing in a function for the indexing. These come in very hand when you are chaining operations and the index has different values. It is very common with grouping operations, which we will see later in the course.
+Now comes the fun and brain-bending part: passing in a function for indexing. That may come in very handy when you are chaining operations and the index has different values. It is very common with grouping operations, which we will see later in the course.
 
-Here is an example showing passing in a function that filters rows where the values in the `Age` column are greater than 30:
+Here is an example of passing in a function that filters the rows where the values in the `Age` column are greater than 30:
 
 ```python
 def age_filter(dataframe):
@@ -114,4 +114,4 @@ rows_age_gt_30 = df[age_filter]  # Select rows where the values in column 'Age' 
 1. Add a new column called `Month cost` to the DataFrame with the following values: `[50000, 800000, 200000, 500000]`.
 2. Compute the `Annual cost in thousands` and add this column to the DataFrame.
 
-<div class="hint">You could operate with columns as they are numbers. Also use int64 type for column `Annual salary in thousands`.</div>
+<div class="hint">You can operate with the columns assuming they have numbers. Also, use the int64 type for the column `Annual salary in thousands`.</div>

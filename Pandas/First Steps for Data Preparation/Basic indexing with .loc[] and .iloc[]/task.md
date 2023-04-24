@@ -32,7 +32,7 @@ subset = df.loc[['row1', 'row3'], ['A', 'C']]  # Select multiple rows and column
 
 subset_with_slices = df.loc['row1':'row2', 'A':'B']  # Select multiple rows and columns by labels
 ```
-**Note** that contrary to usual Python slices, both the start and the stop are included, when present in the index!
+**Note** that unlike the case of regular Python slices, both the start and the stop are included when present in the index!
 
 ### .iloc[]
 

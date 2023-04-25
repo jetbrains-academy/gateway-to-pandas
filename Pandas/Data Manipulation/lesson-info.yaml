@@ -1,5 +1,5 @@
 content:
-- MultiIndex
-- Reshaping and Pivoting Data
+- Creating a MultiIndex
+- Selecting data with MultiIndex
 - Stacking and Unstacking Data
-- Sorting Data by Index and Columns
+- Reshaping and Pivoting Data

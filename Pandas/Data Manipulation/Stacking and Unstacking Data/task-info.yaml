@@ -2,9 +2,18 @@ type: edu
 files:
 - name: task.py
   visible: true
+  placeholders:
+  - offset: 309
+    length: 64
+    placeholder_text: '# YOUR CODE'
+  - offset: 475
+    length: 31
+    placeholder_text: '# YOUR CODE'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py
   visible: false
 - name: tests/__init__.py
   visible: false
+- name: stack_unstack.png
+  visible: true

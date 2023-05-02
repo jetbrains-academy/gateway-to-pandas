@@ -1,6 +1,5 @@
 # Creating a MultiIndex
-A [MultiIndex](https://pandas.pydata.org/docs/user_guide/advanced.html) (or hierarchical index) is an advanced indexing method in pandas that allows you to store and manipulate data with an arbitrary number of dimensions in lower-dimensional data structures like Series and DataFrames. 
-
+A [MultiIndex](https://pandas.pydata.org/docs/user_guide/advanced.html) (or hierarchical index) is an advanced indexing method in pandas that allows you to store and manipulate data with an arbitrary number of dimensions in lower-dimensional data structures like Series and DataFrames.
 One of example is using a second index column as a supplement for the first one to identify each row uniquely.
 
 ```python

@@ -3,3 +3,6 @@ content:
 - Selecting data with MultiIndex
 - Stacking and Unstacking Data
 - Reshaping and Pivoting Data
+- "Adding, Deleting, and Modifying Columns and Rows"
+- Merging and Combining Data
+- Transforming data

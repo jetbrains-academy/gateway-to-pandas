@@ -3,11 +3,14 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 309
-    length: 64
+  - offset: 702
+    length: 36
     placeholder_text: '# YOUR CODE'
-  - offset: 475
-    length: 31
+  - offset: 792
+    length: 39
+    placeholder_text: '# YOUR CODE'
+  - offset: 869
+    length: 32
     placeholder_text: '# YOUR CODE'
 - name: tests/test_task.py
   visible: false
@@ -15,7 +18,7 @@ files:
   visible: false
 - name: tests/__init__.py
   visible: false
-- name: stack_unstack.png
+- name: licenses.csv
   visible: true
-- name: stack_unstack_dark.png
+- name: import_stats.csv
   visible: true

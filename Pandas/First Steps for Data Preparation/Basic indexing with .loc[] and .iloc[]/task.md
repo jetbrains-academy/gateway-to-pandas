@@ -4,7 +4,7 @@ In Pandas, `.loc[]` and `.iloc[]` are powerful indexing functions that allow you
 
 ### .loc[]
 
-The `.loc[]` function is label-based data selecting method, which means you have to pass the row and column labels to select data from a DataFrame.
+The `.loc[]` function is a label-based data selecting method, which means you have to pass the row and column labels to select data from a DataFrame.
 
 Basic Syntax:
 ```python
@@ -32,7 +32,7 @@ subset = df.loc[['row1', 'row3'], ['A', 'C']]  # Select multiple rows and column
 
 subset_with_slices = df.loc['row1':'row2', 'A':'B']  # Select multiple rows and columns by labels
 ```
-**Note** that contrary to usual Python slices, both the start and the stop are included, when present in the index!
+**Note** that unlike the case of regular Python slices, both the start and the stop are included when present in the index!
 
 ### .iloc[]
 

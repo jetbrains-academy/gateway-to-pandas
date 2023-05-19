@@ -1,6 +1,6 @@
 ## Reading data from different sources
 
-Pandas provides extensive support for reading data from various sources. One of the most popular method [pandas.read_csv](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html#pandas.read_csv) allows you to read a comma-separated values (csv) file into DataFrame. It also supports optionally iterating or breaking of the file into chunks.
+Pandas provides extensive support for reading data from various sources. One of the most popular methods, [pandas.read_csv](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html#pandas.read_csv), allows you to read a comma-separated values (csv) file into a DataFrame. It also supports optionally iterating or breaking the file into chunks.
 
 ```python
 import pandas as pd
@@ -9,13 +9,13 @@ filepath_or_buffer = 'somedata.csv'
 df = pd.read_csv(filepath_or_buffer)
 ```
 
-Any valid string path is acceptable as value of `filepath_or_buffer`. The string could be a URL. Valid URL schemes include http, ftp, s3, gs, and file. For file URLs, a host is expected. A local file could be: file://localhost/path/to/table.csv.
+Any valid string path is acceptable as the value of `filepath_or_buffer`. The string could be a URL. Valid URL schemes include http, ftp, s3, gs, and file. For file URLs, a host is expected. A local file could be: file://localhost/path/to/table.csv.
 
-If you want to pass in a path object, pandas accepts any `os.PathLike`. By file-like object, we refer to objects with a `read()` method, such as a file handle (e.g. via builtin `open` function) or `StringIO`.
+If you want to pass in a path object, pandas accepts any `os.PathLike`. As file-like objects, we refer to objects with a `read()` method, such as a file handle (e.g., via the built-in `open` function) or `StringIO`.
 
 Some interesting examples of reading data from different sources:
 
-1. Reading from a compressed file
+1. Reading from a compressed file.
 
       ```python
       import pandas as pd
@@ -23,7 +23,7 @@ Some interesting examples of reading data from different sources:
       filename = 'somedata.csv.gz'  # gzipped CSV file
       df = pd.read_csv(filename, compression='gzip')
       ```
-2. Reading directly from cloud storages: Amazon S3 example is below, and also Google Cloud Storage (GCS) is possible.
+2. Reading directly from cloud storages: An Amazon S3 example is below, and Google Cloud Storage (GCS) is also possible.
 
       ```python
       import pandas as pd
@@ -49,4 +49,4 @@ Some interesting examples of reading data from different sources:
       ```
 
 ### Task
-Implement reading data from CSV file to pandas DataFrame.
+Implement reading data from a CSV file to a pandas DataFrame.

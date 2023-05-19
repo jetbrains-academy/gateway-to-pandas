@@ -1,6 +1,6 @@
 ## Common data issues: duplicates, missing values, inconsistencies
 
-High data quality is essential for research and production as it drives accurate decision-making, improves operational efficiency, enhances customer experience, and ultimately leads to better performance.
+High data quality is essential for research and production, as it drives accurate decision-making, improves operational efficiency, enhances customer experience, and ultimately leads to better performance.
 
 Let’s discuss some of the most common data quality issues and how we can tackle them with pandas. 
 
@@ -8,7 +8,7 @@ Let’s discuss some of the most common data quality issues and how we can tackl
 
 As we saw in the previous task, data can come from different sources – local files and databases, cloud data storages, and streaming data. There is bound to be a lot of duplication in these sources.
 
-Pandas method [DataFrame.duplicated()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html#) returns boolean `Series` denoting duplicate rows.
+The pandas method [DataFrame.duplicated()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html#) returns boolean `Series` denoting duplicate rows.
 
 ```python
 import pandas as pd
@@ -32,7 +32,7 @@ Output:
 dtype: bool
 ```
 
-Method [DataFrame.drop_duplicates()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html#) follows the same logic, but returns a DataFrame with duplicate rows (`True` one) removed.
+The method [DataFrame.drop_duplicates()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html#) follows the same logic but returns a DataFrame with duplicate rows (the `True` ones) removed.
 
 ```python
 df_no_duplicates = df.drop_duplicates()
@@ -47,11 +47,11 @@ Output:
 4     d
 ```
 
-Using optional parameter `subset` (column label or sequence of labels) you can also find or remove duplicates based on specific columns.
+Using the optional parameter `subset` (column label or sequence of labels), you can also find or remove duplicates based on specific columns.
 
 ### 2. Missing values
 
-Missing values are the absence of data in some fields or records. They can result from data entry errors, data collection problems, or the unavailability of information. Missing values can lead to biased or incomplete analyses and reduced model performance. 
+Missing values are data missing in some fields or records. They can result from data entry errors, data collection problems, or the unavailability of information. Missing values can lead to biased or incomplete analyses and reduced model performance. 
 
 Handling missing values typically involves either dropping rows/columns with missing data, filling them with a default value, or using techniques like interpolation and/or prediction of missing values.
 

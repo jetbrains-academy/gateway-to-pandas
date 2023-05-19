@@ -114,4 +114,4 @@ rows_age_gt_30 = df[age_filter]  # Select rows where the values in column 'Age' 
 1. Add a new column called `Month cost` to the DataFrame with the following values: `[50000, 800000, 200000, 500000]`.
 2. Compute the `Annual cost in thousands` and add this column to the DataFrame.
 
-<div class="hint">You can operate with the columns assuming they have numbers. Also, use the int64 type for the column `Annual salary in thousands`.</div>
+<div class="hint">You can operate with the columns as if they were just numbers. Also, use the int64 type for the column `Annual salary in thousands`.</div>

@@ -19,3 +19,5 @@ files:
   visible: true
 - name: stack_unstack_dark.png
   visible: true
+- name: picture_source.tex
+  visible: false

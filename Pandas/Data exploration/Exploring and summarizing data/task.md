@@ -1,6 +1,7 @@
 Exploring data is an important first step in any data analysis project. 
 Pandas provides a variety of tools for exploring and summarizing data, 
-including `describe()`, `info()`, and `shape`. These functions allow you to 
+including `describe()`, `info()` and `shape`.
+These functions allow you to 
 quickly understand the size and structure of your dataset, as well as basic 
 statistics like mean, standard deviation and quartiles.
 
@@ -8,8 +9,8 @@ statistics like mean, standard deviation and quartiles.
 
 The `describe()` function in pandas provides a comprehensive summary of numerical and 
 categorical data. It calculates statistics like count, mean, standard deviation, 
-minimum, maximum, quartiles, and more. It helps understand data distribution, 
-identify outliers, and check for missing values.
+minimum, maximum, quartiles and more. It helps understand data distribution, 
+identify outliers and check for missing values.
 
 `describe()` works with different data types and have different statistics for each data type.
 
@@ -50,6 +51,8 @@ df = pd.DataFrame({'categorical': pd.Categorical(['d','e','f']),
 df.info(verbose=True, memory_usage=True)
 ```
 
+
+alalala heu hey
 ### `value_count()`
 Return the counts of unique rows on the DataFrame. If you specify the row, 
 it will return the counts of unique values in that row.

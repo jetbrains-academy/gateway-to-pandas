@@ -5,7 +5,7 @@ df = pd.DataFrame({'name': ['Adam', 'Brian', 'Christos', 'Dolly', 'Elena', 'Doll
                    'age': [23, 45, 12, 22, 73, 34, 45],
                    'favourite_colour': pd.Categorical(['blue', 'red', 'green', 'yellow', 'pink', 'yellow', 'red'])})
 
-def sort(df):
+def sort(df):  # return sorted df
     return df.sort_values(by=['surname', 'age'], ascending=False)
 
 if __name__ == '__main__':

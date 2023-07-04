@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
+
 def load_data(path):
     df = pd.read_csv(path)
     df = df.fillna('')
@@ -11,11 +12,13 @@ def load_data(path):
                     ' ' + df['tags'] + ' ' + df['title']
     return df
 
+
 def compute_cosine_similarities(df):
     vectorizer = TfidfVectorizer(stop_words='english')
     X = vectorizer.fit_transform(df['content'])
     cosine_similarities = linear_kernel(X, X)
     return cosine_similarities
+
 
 def get_recommendations(title, df, cosine_similarities):
     # Get the index of the TED Talk

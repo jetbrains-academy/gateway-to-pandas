@@ -3,13 +3,13 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 604
+  - offset: 606
     length: 41
-    placeholder_text: '# YOUR CODE, compute cosine_similarities'
-  - offset: 1099
+    placeholder_text: "# YOUR CODE, compute cosine_similarities"
+  - offset: 1102
     length: 29
     placeholder_text: '# YOUR CODE'
-  - offset: 1164
+  - offset: 1167
     length: 41
     placeholder_text: '# YOUR CODE'
 - name: tests/test_task.py

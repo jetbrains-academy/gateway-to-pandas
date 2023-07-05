@@ -29,7 +29,7 @@ Output:
 4  A4  B4
 5  A5  B5
 ```
-If the columns in the DataFrames do not align perfectly (disregarding the order), Pandas can either take the intersection of the columns (using `join='inner'`, which is the default) or insert NaNs to represent the missing values (using `join='outer'`).
+If the columns in the DataFrames do not align perfectly (disregarding the order), pandas can either take the intersection of the columns (using `join='inner'`, which is the default) or insert NaNs to represent the missing values (using `join='outer'`).
 
 `pd.concat()` may also perform "horizontal" stacking, which is similar to `hstack()` in NumPy.
 ```python
@@ -47,7 +47,7 @@ Output:
 
 ## Merge
 [pd.DataFrame.merge()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html) is used to merge 
-DataFrames based on a common column (or index). It is similar to a SQL join operation. So if the column you want 
+DataFrames based on a common column (or index). It is similar to an SQL join operation. So, if the column you want 
 to merge on is not in the index, use merge.
 ```python
 import pandas as pd
@@ -102,7 +102,7 @@ I3  NaN  NaN   C3   D3
 ```
 
 ## Combine
-The [pandas.DataFrame.combine()]((https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.combine.html)) method is used to combine two DataFrames element-wise, with an custom function applied to each pair of elements.
+The [pandas.DataFrame.combine()]((https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.combine.html)) method is used to combine two DataFrames element-wise, with a custom function applied to each pair of elements.
 ```python
 import pandas as pd
 
@@ -133,8 +133,8 @@ Output:
 3. Count the number of imports of different libraries for projects under the specified licenses.
 
 <div class="hint">
-  You should use `pd.DataFrame.isin()` method for the second step.
+  You should use the `pd.DataFrame.isin()` method for the second step.
 </div>
 <div class="hint">
-  And also you may use `pd.DataFrame.value_counts()` for the third one.
+  You may also use `pd.DataFrame.value_counts()` for the third one.
 </div>

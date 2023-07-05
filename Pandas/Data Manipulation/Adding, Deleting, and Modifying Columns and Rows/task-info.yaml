@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 210
+    length: 305
+    placeholder_text: '# YOUR CODE'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

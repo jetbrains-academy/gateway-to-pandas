@@ -21,10 +21,10 @@ df = pd.DataFrame({'categorical': pd.Categorical(['d','e','f']),
                   })
 
 df.sort_values(by=['numeric'])  # sort by 'numeric' column 
-df.sort_values(by=['numeric', 'object'], ascending=False)  # sort descending firstly by 'numeric' then by 'object' columns
+df.sort_values(by=['numeric', 'object'], ascending=False)  # sort descending, firstly by 'numeric' then by 'object' columns
 ```
 
 ## Task
 
-Sort people in the dataframe by the surname in the descending order. 
+Sort the people in the DataFrame by the surname in descending order. 
 People with the same surname should be sorted according to their age.

@@ -1,5 +1,5 @@
 # Reshaping and Pivoting Data
-## Melting data (unpivot from wide to long format)
+## Melting data (unpivoting from wide to long format)
 ```python
 import pandas as pd
 
@@ -69,14 +69,14 @@ pivoted_df = df.pivot(index="ID", columns="Variable", values="Value")
 print("\nPivoted DataFrame (wide format):")
 print(pivoted_df)
 ```
-In the second example, the original DataFrame (in long format) is pivoted using the [pd.pivot()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html) method, which essentially reverses the `pd.melt()` method. The index parameter is set to `"ID"`, the columns parameter is set to `"Variable"`, and the values parameter is set to `"Value"`.
+In the second example, the original DataFrame (in long format) is pivoted using the [pd.pivot()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html) method, which essentially reverses the `pd.melt()` method. The `index` parameter is set to `"ID"`, the `columns` parameter is set to `"Variable"`, and the `values` parameter is set to `"Value"`.
 
 
 ## Pivoting Data with Aggregation
 
 1. Pivot tables
    
-    While `pivot()` provides general purpose pivoting with various data types (strings, numerics, etc.), `pandas` also provides `pivot_table()` for pivoting with aggregation of numeric data.
+    While `pivot()` offers general-purpose pivoting with various data types (strings, numerics, etc.), pandas also provides `pivot_table()` for pivoting with aggregation of numeric data.
     
     ```python
     import pandas as pd
@@ -124,7 +124,7 @@ In the second example, the original DataFrame (in long format) is pivoted using 
 
 2. Cross-tabulation
 
-    Use [pd.crosstab()](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html#pandas.crosstab) to compute a cross-tabulation of two (or more) factors. By default `crosstab()` computes a frequency table of the factors unless an array of values and an aggregation function are passed.
+    Use [pd.crosstab()](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html#pandas.crosstab) to compute a cross-tabulation of two (or more) factors. By default, `crosstab()` computes a frequency table of the factors unless an array of values and an aggregation function are passed.
     ```python
     import pandas as pd
     

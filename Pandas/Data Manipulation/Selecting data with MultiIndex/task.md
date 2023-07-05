@@ -109,7 +109,7 @@ One advantage of accessing a DataFrame using a MultiIndex is that you can conven
 </table>
 </body>
 
-* For rows and cells selection, you can use `.loc[]` syntax.
+* For rows and cells selection, you can use the `.loc[]` syntax.
 
 <table>
   <tr>
@@ -186,19 +186,19 @@ One advantage of accessing a DataFrame using a MultiIndex is that you can conven
   </tr>
 </table>
 
-* Now, consider a situation where you want to select all cities in `Electronics` category or retain only the columns for 2022 year. 
+* Now, consider a situation where you want to select all cities in the `Electronics` category or retain only the columns for the year 2022. 
 Python syntax presents two restrictions in this case:
 
-  1. There is no distinction between `df['a', 'b']` and `df[('a', 'b')]` in the way they are processed, so you can't simply use `df[:, 'Electronics']`. This is because Pandas cannot determine if you are referring to 'Electronics' as a column or as the second level of rows index.
+  1. There is no distinction between `df['a', 'b']` and `df[('a', 'b')]` in the way they are processed, so you can't simply use `df[:, 'Electronics']`. This is because pandas cannot determine if you are referring to 'Electronics' as a column or as the second level of rows index.
 
   2. Python allows colons within square brackets, but not inside parentheses. Therefore, using `df.loc[(:, 'Electronics'), :]` is not possible.
 
 ### Task
-Select all columns for the 2022 year (inner level) from the dataframe with column MultiIndex. You can use the [pandas.DataFrame.xs()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.xs.html) method or other workaround from the hint 2 below.
+Select all columns for the year 2022 (inner level) from the DataFrame with a column MultiIndex. You can use the [pandas.DataFrame.xs()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.xs.html) method or other workaround from hint 2 below.
 
 <div class="hint">
-  Don't forget that year is in columns, so you need to choose the right axis.
+  Don't forget that the year is in columns, so you need to choose the right axis.
 </div>
 <div class="hint">
-  For a DataFrame with two levels, like the one we have here, you can use also the `pd.DataFrame.swaplevel()` method.
+  For a DataFrame with two levels, like the one we have here, you can also use the `pd.DataFrame.swaplevel()` method.
 </div>

@@ -1,0 +1,24 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 702
+    length: 36
+    placeholder_text: '# YOUR CODE'
+  - offset: 792
+    length: 39
+    placeholder_text: '# YOUR CODE'
+  - offset: 869
+    length: 32
+    placeholder_text: '# YOUR CODE'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: licenses.csv
+  visible: true
+- name: import_stats.csv
+  visible: true

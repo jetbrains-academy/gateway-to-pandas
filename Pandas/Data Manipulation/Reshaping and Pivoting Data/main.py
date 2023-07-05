@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Sample DataFrame
 data = {
     "Gender": ["M", "M", "F", "F", "M", "F", "M"],
     "AgeGroup": ["18-30", "18-30", "18-30", "31-50", "31-50", "31-50", "18-30"],

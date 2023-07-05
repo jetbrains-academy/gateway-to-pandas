@@ -1,6 +1,6 @@
 # Creating a MultiIndex
 A [MultiIndex](https://pandas.pydata.org/docs/user_guide/advanced.html) (or hierarchical index) is an advanced indexing method in pandas that allows you to store and manipulate data with an arbitrary number of dimensions in lower-dimensional data structures like Series and DataFrames.
-One of example is using a second index column as a supplement for the first one to identify each row uniquely.
+One of the examples is using a second index column as a supplement for the first one to identify each row uniquely.
 
 ```python
 import pandas as pd
@@ -28,7 +28,7 @@ New York Electronics   6000
 Tokyo    Electronics   7000
          Clothing      2000
 ```
- You can think of `MultiIndex` as an array of tuples where each tuple is unique. A `MultiIndex` can be created also from a list of arrays (using `pd.MultiIndex.from_arrays()`) or an array of tuples (using `from_tuples()`). When you want every pairing of the elements in two iterables, you should use `pd.MultiIndex.from_product()` method:
+ You can think of `MultiIndex` as an array of tuples where each tuple is unique. A `MultiIndex` can be created also from a list of arrays (using `pd.MultiIndex.from_arrays()`) or an array of tuples (using `from_tuples()`). When you want every pairing of the elements in two iterables, you should use the `pd.MultiIndex.from_product()` method:
 ```python
 # MultiIndex creation using pd.MultiIndex.from_product()
 cities = df['City'].unique()

@@ -1,4 +1,4 @@
-Pandas have some build-in methods that would be perfect for simple and fast visualization, 
+Pandas has some built-in methods that would be perfect for simple and fast visualization, 
 including line plots, bar plots, scatter plots, histograms, box plots, and more. 
 
 ### `hist()`
@@ -23,10 +23,10 @@ df.bins(bins=3)
 
 ### `boxplot()`
 
-Make a boxplot from DataFrame’s columns. There are different usage examples.
+Make a boxplot from the DataFrame’s columns. There are different usage examples.
 
-- Boxplots can be created for every numeric column in the dataframe by df.boxplot()
- or indicating the columns to be used
+- Boxplots can be created for every numeric column in the DataFrame by df.boxplot()
+ or by indicating the columns to be used.
 
 ```python
 import pandas as pd
@@ -39,7 +39,7 @@ df = pd.DataFrame({'categorical': pd.Categorical(['d','e','f', 'e']),
 df.boxplot(column=['numeric', 'numeric_2'])
 ```
 
-- Boxplots of variables distributions grouped by the values of a third variable.
+- Boxplots of variables' distributions grouped by the values of a third variable.
 ```python
 import pandas as pd
 
@@ -50,8 +50,8 @@ df = pd.DataFrame({'categorical': pd.Categorical(['d','e','f', 'e']),
                   })
 df.boxplot(by=['object'])
 ```
-- Boxplots of variables distributions grouped by the values of a third variable only 
-for specified numeric columns.                                                                                                                                                       .
+- Boxplots of variables' distributions grouped by the values of a third variable only 
+for specified numeric columns.                                                                                                                                                       
 ```python
 import pandas as pd
 
@@ -70,7 +70,7 @@ Pandas offers a wide range of plotting methods that allow you to create differen
 including line plots, bar plots, scatter plots, histograms, box plots, and more. These methods are accessed using the 
 `.plot()` function, which can be applied directly to a DataFrame or Series.
 
-You can check documentation for all supported functions.
+You can check out the documentation for all supported functions.
 
 ```python
 import pandas as pd
@@ -84,7 +84,7 @@ df = pd.DataFrame({'name': ['Adam', 'Brian', 'Christos', 'Dolly', 'Elena', 'Doll
 # Create a bar plot of sales by product category
 df.plot(x='favourite_colour', y='age', kind='bar')
 
-# Create a scatter plot of sales against advertising spend
+# Create a scatter plot of sales against advertising expenditures
 df.plot(x='age', y='height', kind='scatter')
 
 # Create a histogram of the distribution of ages

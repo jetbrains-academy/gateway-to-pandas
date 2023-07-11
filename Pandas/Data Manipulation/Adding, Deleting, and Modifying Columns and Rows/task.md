@@ -47,7 +47,7 @@ df.loc[3, ["Name", "Age"]] = ["Diana", 38]
 ```
 
 ## `SettingWithCopy` warning
-It's time to handle with legendary `SettingWithCopy` warning. When working with pandas DataFrames, it is important to understand the difference between a view and a copy. 
+It's time to handle the legendary `SettingWithCopy` warning. When working with pandas DataFrames, it is important to understand the difference between a view and a copy. 
 
 A **view** is a reference to the original data, meaning any modifications made to the view will also affect the original data. In other words, a view is a "window" into the same underlying data without creating a separate object.
 

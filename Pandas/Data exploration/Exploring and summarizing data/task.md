@@ -54,7 +54,7 @@ df.info(verbose=True, memory_usage=True)
 
 
 ### `value_count()`
-It return the counts of unique rows in the DataFrame. If you specify the row, 
+It returns the counts of unique rows in the DataFrame. If you specify the row, 
 it will return the counts of unique values in that row.
 
 Basic syntax:

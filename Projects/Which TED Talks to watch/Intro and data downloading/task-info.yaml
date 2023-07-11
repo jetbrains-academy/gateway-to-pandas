@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+- name: main.py
+  visible: true
+- name: main.ipynb
+  visible: true
+- name: ted-talks.zip
+  visible: true
+- name: ted-talks.html
+  visible: true
+- name: ted_main.csv
+  visible: true
+- name: ted_main.csv.zip
+  visible: true

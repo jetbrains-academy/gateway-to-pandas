@@ -18,7 +18,7 @@ def download_csv_with_retries(url, max_retries=3):
 
 
 if __name__ == '__main__':
-    url = 'https://raw.githubusercontent.com/jetbrains-academy/pandas-tutorial/main/import_stats.csv'
+    url = 'https://raw.githubusercontent.com/jetbrains-academy/pandas-tutorial/main/Pandas/import_stats.csv'
     df = download_csv_with_retries(url)
 
     print("First 5 rows of the DataFrame:")

@@ -46,3 +46,13 @@ usually publication on arXiv
  * Model name — common notation for certain large language model
  * Parameters — number of model parameters (in billions), which is size of model in essence
  * Training tokens — number training tokens (in billions)
+
+
+P.S. Openness plays a crucial role in scientific and engineering advancements as 
+it provides the foundation for collective progress and development in these fields. 
+It is vital for conducting fundamental research, cultivating an understanding of 
+computational literacy, and making well-informed decisions about adopting or rejecting 
+LLM architectures.
+Open models help education, offer the ability to develop reproducible workflows, 
+map out resource expenses, and reduce dependency on potentially unpredictable 
+corporate decisions. Here we share the link to [Opening up ChatGPT](https://opening-up-chatgpt.github.io/) project.

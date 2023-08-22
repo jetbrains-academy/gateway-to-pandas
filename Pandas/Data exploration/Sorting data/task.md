@@ -4,7 +4,7 @@
  specify the index/column(s) you want to sort by. By default, the sort_values() method 
  sorts in ascending order, but you can set the ascending parameter to False for descending order.
   Additionally, you can sort by multiple columns by passing a list of column names 
- to the by parameter.
+ to the 'by' parameter.
  
 Basic syntax:
 ```python

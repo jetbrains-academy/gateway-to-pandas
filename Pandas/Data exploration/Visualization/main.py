@@ -23,5 +23,5 @@ if __name__ == "__main__":
     plt.show()
 
     # Create a Kernel Density Estimate plot of height
-    df['height'].plot(kind='kde', title='Age distribution (kde)')
+    df['height'].plot(kind='kde', title='Height distribution (kde)')
     plt.show()

@@ -51,9 +51,7 @@ df = pd.DataFrame({'categorical': pd.Categorical(['d','e','f']),
 df.info(verbose=True, memory_usage=True)
 ```
 
-
-alalala heu hey
-### `value_count()`
+### `value_counts()`
 Return the counts of unique rows on the DataFrame. If you specify the row, 
 it will return the counts of unique values in that row.
 
@@ -77,7 +75,7 @@ df.value_counts(subset='surname')  # get unique value counts for row 'surname'
 ### Computing basic statistics
 
 Pandas have a bunch of built-in functions to compute different statistics. There are some helpful functions to explore your data.
-- `df.shape()` — returns the shape of the dataframe.
+- `df.shape()` - returns the shape of the dataframe.
 - `df.mean(axis=None, skip_na=True)` – returns mean over specified axis (defaut axis – columns).
 - `df.mode(axis=None)` – returns mode over specified axis.
 - `df.min(axis=None, skip_na=True)` – returns min over specified axis.

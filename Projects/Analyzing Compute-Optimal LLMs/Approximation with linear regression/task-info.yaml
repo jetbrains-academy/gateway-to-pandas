@@ -1,0 +1,22 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 810
+    length: 63
+    placeholder_text: '# create linear regression model'
+  - offset: 879
+    length: 141
+    placeholder_text: '# reshape and log the data'
+  - offset: 1026
+    length: 35
+    placeholder_text: '# fit the model'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: lin_reg_plot.svg
+  visible: true

@@ -1,0 +1,18 @@
+Paper link,Paper title,Year,Model name,Parameters,Training tokens
+https://arxiv.org/abs/2203.15556,"Training Compute-Optimal Large Language Models",2022,Chinchilla,70,1400
+https://arxiv.org/abs/2201.08239,"LaMDA: Language models for dialog applications",2022,LaMDA,137,1560
+https://arxiv.org/abs/2205.01068,"OPT: Open Pre-trained Transformer Language Models",2022,OPT,175,300
+https://github.com/ai21labs/lm-evaluation,"Jurassic-1: technical details and evaluation",2021,Jurassic-1,178,300
+https://arxiv.org/abs/2005.14165,"Language models are few-shot learners",2020,GPT-3,175,400
+Twitter,Rumors,2023,GPT-4,1800,13000
+https://arxiv.org/abs/2112.11446,"Scaling Language Models: Methods, Analysis & Insights from Training Gopher",2022,Gopher,280,300
+https://arxiv.org/abs/2201.11990,"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",2022,MT-NLG,530,270
+https://arxiv.org/abs/2302.13971,"LLaMA: Open and Efficient Foundation Language Models",2023,LLaMA,65,1400
+https://arxiv.org/abs/2211.05100,"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",2022,BLOOM,176,341
+https://arxiv.org/abs/2204.02311,"PaLM: Scaling Language Modeling with Pathways",2022,PaLM,540,780
+https://arxiv.org/abs/2204.06745,"GPT-NeoX-20B: An Open-Source Autoregressive Language Model",2022,GPT-NeoX,20,350
+https://arxiv.org/abs/2210.02414,"GLM-130B: An Open Bilingual Pre-trained Model",2022,GLM,130,400
+https://arxiv.org/abs/2206.14858,"Solving Quantitative Reasoning Problems with Language Models",2022,Minerva,540,139
+https://arxiv.org/abs/1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",2018,BERT,0.340,137
+https://arxiv.org/abs/1910.10683,"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",2019,T5,0.770,34
+https://openai.com/research/better-language-models,"Language Models are Unsupervised Multitask Learners",2019,GPT-2,1.5,30

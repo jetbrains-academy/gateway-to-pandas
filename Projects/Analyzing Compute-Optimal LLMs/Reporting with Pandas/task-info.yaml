@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 519
+    length: 384
+    placeholder_text: |-
+      # YOUR CODE
+      # * group original DataFrame by `Year` column
+      # * aggregate group elements to calculate the number of models and mean values of parameters and training tokens by year
+      # * create and return proper styler
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: report_template.html
+  visible: true

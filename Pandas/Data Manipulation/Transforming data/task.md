@@ -95,6 +95,11 @@ Clothing                 3      1000      5000
 Electronics              4      4000      7000
 ```
 
+Often the term "group by" denotes a process which could include one or more of the following stages:
+ - Dividing the data into groups according to certain criteria
+ - Executing a function independently on each group
+ - Consolidating the outcomes into a data structure
+
 ## Task: simple analysis of sales data
 You are given a dataset containing sales data for various products across different cities. Your goal is to answer the following questions:
 1. What are the total sales for each city?

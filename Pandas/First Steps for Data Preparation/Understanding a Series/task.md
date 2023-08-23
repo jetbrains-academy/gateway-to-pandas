@@ -15,7 +15,7 @@ Here, `data` can be many different things:
 - a 1D [`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) object
 - an array-like (list, tuple, etc.) or an Iterable
 - a scalar value (like 7)
-- a Python dict.
+- a Python dict
 
 The passed `index` is a list of axis labels. 
 

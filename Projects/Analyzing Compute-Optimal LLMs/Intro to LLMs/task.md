@@ -5,7 +5,7 @@ Because it's trained on a very large dataset, it can generate highly diverse res
 It can also incorporate a lot of knowledge about the world, including facts, logic, reasoning abilities, 
 and even some level of "understanding" of emotions and human experiences.
 
-For example, GPT-3, developed by OpenAI, is a large language model with 175 billion machine learning parameters. 
+For example, GPT-3, developed by OpenAI, is a large language model with 175 billion training parameters. 
 It is capable of tasks such as translation, question-answering, and even generating creative content like 
 poems or short stories, often with surprising accuracy and coherence.
 However, it's important to remember that even large language models do not truly understand the text in the way humans do. 
@@ -43,10 +43,9 @@ So we have prepared for you table with the following columns:
 usually publication on arXiv
  * Paper title 
  * Year — year of publication 
- * Model name — common notation for certain large language model
+ * Model name — common notation for particular large language model
  * Parameters — number of model parameters (in billions), which is size of model in essence
- * Training tokens — number training tokens (in billions)
-
+ * Training tokens — number of training tokens (in billions)
 
 P.S. Openness plays a crucial role in scientific and engineering advancements as 
 it provides the foundation for collective progress and development in these fields. 

@@ -46,7 +46,7 @@ a table of LLMs in HTML format. You need to create the second table similarly in
 the `year_stats_styler(df)` function:
  * group original DataFrame by `Year` column
  * aggregate group elements to calculate the number of models and mean values of parameters and training tokens by year
- * create and return proper styler
+ * create and return proper `styler`
 
 If everything is implemented correctly, 
 then `task.py` will create a nice HTML report file [report.html](report.html) 

@@ -22,7 +22,7 @@ def fillna(df):
 
 def correct_inconsistency(df):
     df_final = df.copy()
-    df_final['Height'] = df_fillna['Height'].astype(float)
+    df_final['Height'] = df_final['Height'].astype(float)
     return df_final
 
 

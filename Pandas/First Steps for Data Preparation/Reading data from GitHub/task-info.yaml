@@ -1,26 +1,26 @@
 type: edu
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 867
-    length: 35
-    placeholder_text: '# Download data from GitHub and load it into a DataFrame'
-  - offset: 952
-    length: 16
-    placeholder_text: '# Display the first 5 rows of the DataFrame'
-  - offset: 1013
-    length: 15
-    placeholder_text: '# Display the shape of the DataFrame'
-- name: tests/test_task.py
-  visible: false
-- name: __init__.py
-  visible: false
-- name: tests/__init__.py
-  visible: false
-- name: tmp.ipynb
-  visible: true
-- name: licenses.csv
-  visible: true
-- name: import_stats.csv
-  visible: true
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 869
+        length: 35
+        placeholder_text: '# Download data from GitHub and load it into a DataFrame'
+      - offset: 954
+        length: 16
+        placeholder_text: '# Display the first 5 rows of the DataFrame'
+      - offset: 1015
+        length: 15
+        placeholder_text: '# Display the shape of the DataFrame'
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: tmp.ipynb
+    visible: true
+  - name: licenses.csv
+    visible: true
+  - name: import_stats.csv
+    visible: true

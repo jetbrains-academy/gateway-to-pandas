@@ -14,7 +14,7 @@ def modify(df_):
     df_ = df_.drop("City", axis=1)
     df_["Age"] = df_["Age"] + 1
     new_row = {"Name": "Eva", "Age": 45, "Country": "Germany"}
-    df_ = df_.append(new_row, ignore_index=True)
+    df_.loc[len(df_.index)] = new_row
     df_ = df_.drop(2)
     df_.loc[1, ["Name", "Age"]] = ["Robert", 32]
     return df_

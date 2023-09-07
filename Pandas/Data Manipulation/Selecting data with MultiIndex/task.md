@@ -1,7 +1,7 @@
 # Selecting data with MultiIndex
 One advantage of accessing a DataFrame using a MultiIndex is that you can conveniently reference all levels at once (possibly excluding the inner levels) with an intuitive and familiar syntax.
 
-* For columns selection, you can use the usual square brackets.
+* For columns selection, you can use the standard square brackets.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -194,7 +194,8 @@ Python syntax presents two restrictions in this case:
   2. Python allows colons within square brackets, but not inside parentheses. Therefore, using `df.loc[(:, 'Electronics'), :]` is not possible.
 
 ### Task
-Select all columns for the 2022 year (inner level) from the dataframe with column MultiIndex. You can use the [pandas.DataFrame.xs()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.xs.html) method or other workaround from the hint 2 below.
+Select all columns for the 2022 year (inner level) from the dataframe with column MultiIndex. 
+You can use the [pandas.DataFrame.xs()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.xs.html) method or other workaround from the hint 2 below.
 
 <div class="hint">
   Don't forget that year is in columns, so you need to choose the right axis.

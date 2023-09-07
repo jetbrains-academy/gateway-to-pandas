@@ -6,8 +6,6 @@ like `and`, `or`, and `not` to define the conditions. Applying these conditions 
 using square brackets allows you to filter the data and obtain a subset that meets the 
 specified criteria.
 
-
-
 - Filtering with one or multiple сonditions:
 
   ```python
@@ -20,7 +18,7 @@ specified criteria.
 
   
 - Filtering with String Methods:
-You can use built-in string methods to filter strings such as `starts_with`, `contains`, `ends_with` and so on.
+You can use built-in string methods to filter strings such as `startswith`, `contains`, `endswith` and so on.
   ```python
   # Filtering based on string values
   filtered_data = df[df['column'].str.contains('apple', case=False)]
@@ -48,7 +46,8 @@ You can use built-in string methods to filter strings such as `starts_with`, `co
   'column_name' are present in the `values_to_filter` list.
 
 ## Task
-Left in dataframe only the data that meets the following criteria:
-1. Age less or equal than 60
-2. Name starts with A or D
-3. Surname is not "Brown"
+You're required to filter the DataFrame such 
+that it only retains entries fulfilling these specification:
+1. `Age` is 60 or less.
+2. `Name` starts with either "A" or "D".
+3. `Surname` is not "Brown".

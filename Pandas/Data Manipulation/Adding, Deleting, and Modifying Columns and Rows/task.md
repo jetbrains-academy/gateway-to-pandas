@@ -30,11 +30,13 @@ df["Age"] = df["Age"] + 1
 ```
 
 ## Adding and Deleting Rows
-To add a new row, you can use the `append()` method, which takes a dictionary or a Series with matching column names.
+To add a new row, you can use either inplace assignment with `loc`: 
 ```python
 new_row = {"Name": "Eva", "Age": 45}
-df = df.append(new_row, ignore_index=True)
+df.loc[len(df.index)] = new_row
 ```
+Or the `ps.concat()` method, which we will discuss later.
+
 To delete a row, use the `drop()` method with the index value of the row and the axis.
 ```python
 df = df.drop(4, axis=0)

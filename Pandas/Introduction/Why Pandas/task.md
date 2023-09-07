@@ -15,3 +15,6 @@ or the official [Python tutorial](https://docs.python.org/3/tutorial/).
 
 It will be a plus if you are already familiar with the NumPy library. For a refresher, see 
 the course [Python Libraries - NumPy](https://plugins.jetbrains.com/plugin/18302-python-libraries--numpy).
+
+### Join the Community
+Please join the course chat on Discord using the [link](https://discord.gg/zX8SnjHM). There, you can ask questions, interact with instructors, and connect with your fellow students.

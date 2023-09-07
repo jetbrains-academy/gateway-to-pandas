@@ -11,4 +11,4 @@ The course leverages the official documentation of Pandas, supplemented with add
 
 As you navigate this course, remember the aim is to learn and have fun. Good luck!
 
-Should you wish to contribute, you're more than welcome to submit a pull request to course's [GitHub repository](https://github.com/jetbrains-academy/pandas-tutorial).
+Should you wish to contribute, you're more than welcome to submit a pull request to course's [GitHub repository](https://github.com/jetbrains-academy/gateway-to-pandas).

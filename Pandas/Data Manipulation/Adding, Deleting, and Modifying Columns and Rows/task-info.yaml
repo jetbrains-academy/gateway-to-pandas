@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 210
-    length: 305
+    length: 294
     placeholder_text: '# YOUR CODE'
 - name: tests/test_task.py
   visible: false

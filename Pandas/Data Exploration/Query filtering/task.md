@@ -49,7 +49,8 @@ Note that you can use both `&` and `and` operators for querues.
 
 
 ## Task
-Left in dataframe only the data that meets the following criteria:
-1. Age less or equal than 60
-2. Name starts with A or D
-3. Surname is not "Brown"
+Again you're required to filter the DataFrame such 
+that it only retains entries fulfilling these specification:
+1. `Age` is 60 or less.
+2. `Name` starts with either "A" or "D".
+3. `Surname` is not "Brown".

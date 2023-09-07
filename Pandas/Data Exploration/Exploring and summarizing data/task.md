@@ -52,7 +52,7 @@ df.info(verbose=True, memory_usage=True)
 ```
 
 ### `value_counts()`
-Return the counts of unique rows on the DataFrame. If you specify the row, 
+Returns the counts of unique rows on the DataFrame. If you specify the row, 
 it will return the counts of unique values in that row.
 
 Basic syntax:
@@ -75,13 +75,21 @@ df.value_counts(subset='surname')  # get unique value counts for row 'surname'
 ### Computing basic statistics
 
 Pandas have a bunch of built-in functions to compute different statistics. There are some helpful functions to explore your data.
-- `df.shape()` - returns the shape of the dataframe.
-- `df.mean(axis=None, skip_na=True)` – returns mean over specified axis (defaut axis – columns).
-- `df.mode(axis=None)` – returns mode over specified axis.
-- `df.min(axis=None, skip_na=True)` – returns min over specified axis.
-- `df.max(axis=None, skip_na=True)` – returns min over specified axis.
-- `df.sum(axis=None)` – returns sum of all values over specified axis.
-- `df.std(axis=None)` – returns standart deviation over specified axis.
-- `df.var(axis=None)` – returns standart deviation over specified axis.
-- `df.cov()` – returns covariance table for each pair of columns.
-- `df.quantile(q=[0.1, 0.5])` – returns the specified quantiles.
+- `df.shape()` – returns the shape of the dataframe
+- `df.mean(axis=None, skip_na=True)` – returns mean over specified axis (defaut axis – columns)
+- `df.mode(axis=None)` – returns mode over specified axis
+- `df.min(axis=None, skip_na=True)` – returns min over specified axis
+- `df.max(axis=None, skip_na=True)` – returns max over specified axis
+- `df.sum(axis=None)` – returns sum of all values over specified axis
+- `df.std(axis=None)` – returns standart deviation over specified axis
+- `df.var(axis=None)` – returns variance over specified axis
+
+   _Statistical note: for Series and DataFrame objects, `var()` normalizes by `N-1` 
+   to produce unbiased estimates of the variance, while NumPy’s `numpy.var()` 
+   normalizes by `N`, which measures the variance of the sample. 
+   Also note that `cov()` normalizes by `N-1` in both Pandas and NumPy._
+ 
+- `df.cov()` – returns covariance table for each pair of columns
+- `df.quantile(q=[0.1, 0.5])` – returns the specified quantiles
+
+

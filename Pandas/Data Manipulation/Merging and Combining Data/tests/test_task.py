@@ -25,5 +25,9 @@ class TestFunctions(unittest.TestCase):
         data = {"import": ["a", "b", "a", "c", "b", "a"]}
         df = pd.DataFrame(data)
         result = count_imports(df, "import")
-        expected = pd.Series({"a": 3, "b": 2, "c": 1}, name="import")
+        print(result)
+        expected = pd.Series({"a": 3, "b": 2, "c": 1},
+                             index=pd.Index(['a', 'b', 'c'], dtype='object', name='import'),
+                             name='count')
+        print(expected)
         pd.testing.assert_series_equal(result, expected)

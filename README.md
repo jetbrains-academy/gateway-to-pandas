@@ -1,3 +1,5 @@
+#  Gateway to Pandas [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 Welcome to the hands-on course by JetBrains Educational Products, dedicated to mastering one of the most popular Python library — Pandas. The name "Pandas" has its roots in the term "panel data", which is an econometric term for datasets. 
 
 This course is curated for individuals who possess basic knowledge of Python programming. It aims to provide comprehensive coverage of the following objectives:

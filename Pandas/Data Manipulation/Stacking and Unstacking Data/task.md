@@ -92,5 +92,6 @@ C         100  110
 ```
 
 ## Task
-1. Create a DataFrame from the data dictionary and set the index of the DataFrame to be a multi-level index containing "Product", "City", and "Year".
+1. Create a DataFrame from the data dictionary and set 
+the index of the DataFrame to be a multi-level index containing "Product", "City", and "Year" in this order.
 2. Unstack the DataFrame at the "Year" level and assign it to a new variable named `unstacked_df`.

@@ -163,3 +163,6 @@ In the second example, the original DataFrame (in long format) is pivoted using 
     F             1      2
     M             2      0
     ```
+
+For more details and all methods of working with tables, 
+see the [Pandas documentation](https://pandas.pydata.org/docs/user_guide/reshaping.html#).

@@ -18,9 +18,3 @@ files:
     visible: false
   - name: tests/__init__.py
     visible: false
-  - name: tmp.ipynb
-    visible: true
-  - name: licenses.csv
-    visible: true
-  - name: import_stats.csv
-    visible: true

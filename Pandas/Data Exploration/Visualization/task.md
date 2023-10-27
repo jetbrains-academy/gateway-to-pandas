@@ -18,7 +18,7 @@ df = pd.DataFrame({'categorical': pd.Categorical(['d','e','f', 'e']),
                    'numeric': [1, 2, 3, 2],
                    'object': ['a', 'b', 'c', 'c']
                   })
-df.bins(bins=3)
+df.hist(bins=3)
 ```
 
 ### `boxplot()`

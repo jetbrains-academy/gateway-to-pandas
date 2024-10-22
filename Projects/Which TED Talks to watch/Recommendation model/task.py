@@ -35,6 +35,6 @@ def get_recommendations(title, df, cosine_similarities):
 
 
 if __name__ == "__main__":
-    df = load_data('../Introduction/ted_main.csv')
+    df = load_data('../Intro and data downloading/ted_main.csv')
     cosine_similarities = compute_cosine_similarities(df)
     print(get_recommendations('The power of vulnerability', df, cosine_similarities))

@@ -1,0 +1,11 @@
+type: theory
+custom_name: Intro and data downloading
+files:
+  - name: __init__.py
+    visible: false
+  - name: main.py
+    visible: true
+  - name: ted_main.csv
+    visible: true
+  - name: main.ipynb
+    visible: true

@@ -14,5 +14,6 @@ vendor:
 programming_language: Python
 environment: unittest
 content:
-- Pandas
-- Projects
+  - Pandas
+  - Projects
+yaml_version: 5

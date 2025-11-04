@@ -16,4 +16,7 @@ environment: unittest
 content:
   - Pandas
   - Projects
+additional_files:
+  - name: requirements.txt
+  - name: courseIcon.svg
 yaml_version: 5

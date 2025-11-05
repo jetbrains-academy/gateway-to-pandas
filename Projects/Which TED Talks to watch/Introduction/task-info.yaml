@@ -9,3 +9,4 @@ files:
     visible: true
   - name: main.ipynb
     visible: true
+    is_binary: false

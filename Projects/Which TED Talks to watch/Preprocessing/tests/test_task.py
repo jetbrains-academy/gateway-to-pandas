@@ -5,7 +5,7 @@ from task import process_ted_talks
 
 class TestTedTalkProcessing(unittest.TestCase):
     def test_process_ted_talks(self):
-        filename = '../Intro and data downloading/ted_main.csv'
+        filename = '../Introduction/ted_main.csv'
         X = process_ted_talks(filename)
 
         # test if the returned object is a sparse matrix (as returned by TfidfVectorizer)

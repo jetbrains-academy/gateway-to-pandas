@@ -14,5 +14,9 @@ vendor:
 programming_language: Python
 environment: unittest
 content:
-- Pandas
-- Projects
+  - Pandas
+  - Projects
+additional_files:
+  - name: requirements.txt
+  - name: courseIcon.svg
+yaml_version: 5

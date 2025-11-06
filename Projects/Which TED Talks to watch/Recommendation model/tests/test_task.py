@@ -3,7 +3,7 @@ import unittest
 from task import load_data, compute_cosine_similarities, get_recommendations
 
 class TestTEDRecommendations(unittest.TestCase):
-    filename = '../Intro and data downloading/ted_main.csv'
+    filename = '../Introduction/ted_main.csv'
 
     def test_load_data(self):
         df = load_data(self.filename)

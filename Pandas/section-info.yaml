@@ -1,6 +1,6 @@
 custom_name: Pandas
 content:
-- Introduction
-- First Steps for Data Preparation
-- Data Exploration
-- Data Manipulation
+  - Introduction
+  - First Steps for Data Preparation
+  - Data Exploration
+  - Data Manipulation

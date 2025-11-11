@@ -1,12 +1,8 @@
 type: marketplace
-title: Gateway to Pandas
+title: Mastering Python Libraries – Pandas
 language: English
-summary: |-
-  This is an introductory course about one of the most popular Python library - Pandas.
-  - The course will be most beneficial for learners with some Python skills.
-  - The course covers Pandas data structures, data preparation and cleaning and some advanced topics.
-  - It contains hands-on examples of code implementation and exercises to practice new skills.
-  - The course is based on the official documentation of Pandas.
+summary: "Think in tables, not loops. Learn Pandas—the library used by analysts, scientists,\
+  \ and engineers to clean, reshape, and analyze real-world data in Python."
 vendor:
   name: JetBrains
   email: support@jetbrains.com

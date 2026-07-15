@@ -4,7 +4,7 @@ language: English
 summary: "Think in tables, not loops. Learn Pandas—the library used by analysts, scientists,\
   \ and engineers to clean, reshape, and analyze real-world data in Python."
 vendor:
-  name: JetBrains
+  name: JetBrains s.r.o.
   email: support@jetbrains.com
   url: https://www.jetbrains.com/
 programming_language: Python

@@ -1,4 +1,3 @@
-# Adding, Deleting, and Modifying Columns and Rows of a DataFrame
 ## Adding a Column
 To add a new column to a DataFrame, simply assign a new Series or a list of values to a new column name.
 ```python

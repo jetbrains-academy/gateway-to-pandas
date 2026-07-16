@@ -1,4 +1,3 @@
-## Understanding a Series
 In this task, we'll introduce a Series — the first of two main data structures at the core of pandas. 
 
 A [Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series) is a one-dimensional labeled array. 

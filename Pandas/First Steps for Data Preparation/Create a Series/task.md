@@ -1,5 +1,3 @@
-## Create a Series
-
 There are several ways you can create a Series.
 
 * First, you can create a Series from a regular Python list, 1D `numpy.ndarray`, or other iterable object using the constructor `pandas.Series()`. 

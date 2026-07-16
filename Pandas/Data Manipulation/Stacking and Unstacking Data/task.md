@@ -1,5 +1,3 @@
-# Stacking and Unstacking Data
-
 <p align="center">
     <img src="stack_unstack.png" width="80%"/>
 </p>

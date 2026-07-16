@@ -1,5 +1,3 @@
-## Understanding a DataFrame
-
 [pandas.DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) is a two-dimensional labeled tabular structure. It is potentially heterogenous and size-mutable.
 You can think of it like a spreadsheet or SQL table, or a dict of Series objects. 
 It is generally the most commonly used pandas object. 

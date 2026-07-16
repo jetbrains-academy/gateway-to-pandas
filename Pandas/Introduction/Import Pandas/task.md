@@ -1,5 +1,3 @@
-## Import Pandas
-
 To access Pandas and its functions, import it in your Python code like this:
 ```python
 import pandas as pd

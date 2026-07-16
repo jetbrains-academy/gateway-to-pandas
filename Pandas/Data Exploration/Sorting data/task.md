@@ -1,5 +1,3 @@
-### `sort_values()`
-
  To sort values in a pandas DataFrame, you can use the `sort_values()` method and 
  specify the index/column(s) you want to sort by. By default, the sort_values() method 
  sorts in ascending order, but you can set the ascending parameter to False for descending order.

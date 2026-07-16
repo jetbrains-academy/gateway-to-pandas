@@ -1,4 +1,3 @@
-### Conditional filtering
 One common approach is to use conditional statements to create boolean masks that
  indicate which rows satisfy the given conditions. For instance, you can use comparison 
 operators such as greater than (`>`), less than (`<`), equal to (`==`), and logical operators 

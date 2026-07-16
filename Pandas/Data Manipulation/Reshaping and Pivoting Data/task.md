@@ -1,4 +1,3 @@
-# Reshaping and Pivoting Data
 ## Melting data (unpivot from wide to long format)
 ```python
 import pandas as pd

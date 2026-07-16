@@ -1,5 +1,3 @@
-## Create and manipulate a DataFrame
-
 In this task, you will create a DataFrame using different input types and perform basic operations to better understand the DataFrame structure.
 
 

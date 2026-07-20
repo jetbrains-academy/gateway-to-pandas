@@ -1,5 +1,3 @@
-## Reading data from different sources
-
 Pandas provides extensive support for reading data from various sources. One of the most popular methods, [pandas.read_csv](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html#pandas.read_csv), allows you to read a comma-separated values (csv) file into a DataFrame. It also supports optionally iterating or breaking the file into chunks.
 
 ```python

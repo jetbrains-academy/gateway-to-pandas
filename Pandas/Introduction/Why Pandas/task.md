@@ -1,5 +1,3 @@
-## Choosing Pandas: the Benefits
-
 Why is [Pandas](https://pandas.pydata.org/) the right tool for the job and 
 what makes it so useful for data manipulation and analysis?
 

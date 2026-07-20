@@ -1,5 +1,3 @@
-### `query` filtering
-
 `query` provides a flexible and expressive way to perform complex filtering. 
 You can use various comparison operators, string methods, functions, and logical operators 
 within the query expression to specify your filtering criteria. 

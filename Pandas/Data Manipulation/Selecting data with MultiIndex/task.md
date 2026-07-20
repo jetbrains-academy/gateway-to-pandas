@@ -1,4 +1,3 @@
-# Selecting data with MultiIndex
 One advantage of accessing a DataFrame using a MultiIndex is that you can conveniently reference all levels at once (possibly excluding the inner levels) with an intuitive and familiar syntax.
 
 * For columns selection, you can use the standard square brackets.

@@ -1,5 +1,3 @@
-## Common data issues: duplicates, missing values, inconsistencies
-
 High data quality is essential for research and production, as it drives accurate decision-making, improves operational efficiency, enhances customer experience, and ultimately leads to better performance.
 
 Let’s discuss some of the most common data quality issues and how we can tackle them with pandas. 

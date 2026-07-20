@@ -1,4 +1,3 @@
-# Merging and Combining Data
 In this lesson, we will learn about combining and merging data using `pandas`. Often, you need to combine data 
 from multiple sources to perform a comprehensive analysis. Pandas provides several methods to combine DataFrames, 
 such as `concat()`, `merge()`, and `join()`. We will explore these methods and understand how to use them effectively.

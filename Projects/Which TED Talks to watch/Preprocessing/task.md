@@ -1,4 +1,3 @@
-# Preprocessing 
 Let's discuss the general concept of a content-based recommendation system. It uses the content of items to recommend other items that are similar. In our case, we are going to recommend TED Talks based on the similarity of their content, such as speaker, tags, themes and etc. To accomplish this, we need to compute similarities and then rank TED Talks based on these similarities. We will then write a function that outputs recommendations for a given TED Talk.
 
 So the first task is converting the content of the items (in our case, `TED Talks`) into a form that the algorithm can understand. 
